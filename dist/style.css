@@ -86,6 +86,41 @@ select {
     --primary-grey: hsl(246 25% 77%);
 }
 
+/* Utillity classes */
+
+/* background - colors  */
+
+.bg-red { background-color: var(--primary-red); }
+.bg-blue { background-color: var(--primary-purble); }
+.bg-green { background-color: var(--primary-green); }
+
+/* font - color */
+
+.fc-dark { color: var(--primary-dark); }
+.fc-red { color: var(--primary-red); }
+.fc-light { color: var(--primary-grey); }
+
+/* Font */
+
+/* heading */
+
+.fs-900 {
+    font-size: clamp(1.75rem, 1.4527rem + 1.8581vw, 3.125rem);
+    font-weight: 900;
+
+}
+.wrapper {
+    width: 90vw;
+    width: clamp(16rem, 90vw, 90rem);
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    border: 2px solid magenta;
+}
+
+
+
 
 
 
