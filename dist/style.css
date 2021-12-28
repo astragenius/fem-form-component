@@ -274,6 +274,9 @@ input:invalid {
 input:invalid + .error-img, .error-msg {
     visibility: visible;
 }
+input:invalid + .error-img + .error-msg{
+    visibility: visible;
+}
 
 
 /* Input error Styling */
