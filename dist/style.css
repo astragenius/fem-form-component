@@ -325,9 +325,15 @@ input:invalid + .error-img, .error-msg {
 
 /* Terms and condition */
 .terms__container {
-   text-align: center;
+    text-align: center;
 }
 
+footer {
+    height: 50px;
+    margin-top: -50px;
+}
+.attribution { font-size: 14px; text-align: center; }
+.attribution a { color: var(--primary-dark); }
 
 
 
@@ -382,7 +388,3 @@ input:invalid + .error-img, .error-msg {
 
 
 
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
